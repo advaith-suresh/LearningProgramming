@@ -1,5 +1,6 @@
 '''
 Example form: https://new.pythonforengineers.com/blog/create-a-word-counter-in-python/
+uses birds.txt
 
 Objective: enter file name in arguments diplay number of words and lines in file
 Learning: intro to sys.argv
