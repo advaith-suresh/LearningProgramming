@@ -1,7 +1,7 @@
 '''
 Examples from: https://new.pythonforengineers.com/blog/an-introduction-to-numpy-and-matplotlib/
 
-Objective: learn List Comprehension, NumPy basics and Matplotlib basics
+Learning: List Comprehension, NumPy basics and Matplotlib basics
 '''
 
 import numpy as np
