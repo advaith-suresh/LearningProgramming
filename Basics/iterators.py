@@ -1,5 +1,5 @@
 '''
-Learning: some properties of iterators and iterables
+Learning: some properties of Iterators and iterables, and Generators
 '''
 
 class Queue:
@@ -59,4 +59,20 @@ while 1:
 '''
 for i in shop:
     print(i)
+'''
+
+# working with Generators
+'''
+def gen():
+    n = 0
+    while 1:
+        n += 2
+        yield n
+
+gen_obj = gen()
+
+i = 0
+while i < 10:
+    print(next(gen_obj))
+    i += 1
 '''
